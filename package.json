@@ -1,0 +1,10 @@
+{
+  "homepage": "https://Akshay-Diwan.github.io/tic-tak-toe",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
